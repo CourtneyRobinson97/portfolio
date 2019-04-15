@@ -1,0 +1,649 @@
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+		<title>Courtney Robinson Designs Portfolio Webpage</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport"><meta content="Webflow" name="generator">
+		<link href="https://uploads-ssl.webflow.com/5a6e13ad92eb9700011adcea/css/sidebar-scroll.webflow.4439a310a.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script>
+<![endif]-->
+		<script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+		<link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+		<link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
+		<link href="https://fonts.googleapis.com/css?family=Roboto|Ruda:700" rel="stylesheet">
+<!-- STYLESHEET -->	
+
+<style>
+		.left-inner{
+			position: -webkit-sticky !important;
+			position: sticky !important;
+		}
+		
+		#header {
+			text-align: center;
+			margin-top: none;
+		}
+		
+		#header2 {
+			text-align: center;
+			margin-top: none;
+			padding-bottom: 50px;
+		}
+		
+		#header img{
+			margin-bottom: 5px;
+		}
+		
+		#header p{
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 16px;
+		}
+		
+		h2, h3,p{
+			margin-bottom: 30px;
+		}
+		
+		h1{
+			color: #B71E9D;
+			font-size: 50px;
+			text-transform: uppercase;
+			font-family: 'Ruda', sans-serif;
+		}
+		body{
+			color: white;
+			background: black;
+			font-family: 'Roboto', sans-serif;
+			padding-bottom: 100px;
+			padding-top: 25px;
+			border: 10px;
+			font-size: 18px;
+		}
+		
+		h2{
+			color: #B71E9D;
+			font-size: 30px;
+			font-family: 'Ruda', sans-serif;
+		}
+		
+		h3{
+			font-family: 'Ruda', sans-serif;
+		}
+		
+		h4{
+			color: #B71E9D;
+			font-family: 'Ruda', sans-serif;
+		}
+		
+		
+		h5{
+			color: #B71E9D;
+			text-transform: uppercase;
+		}
+		
+		
+		#navigation{
+			text-align: center;
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+		
+		#icons{
+			text-align: center;
+			font-size: 18px;
+			padding-top: 50px;
+		}
+		
+		#social-media{
+			text-align: center;
+		}
+
+		#social-media img{
+			margin: 10px;
+		}
+		
+		.social{
+	 		margin-right: 1em;
+		}
+
+		.social:hover{
+			opacity: 0.8;
+		}
+
+		#social-media { 
+			margin-top: 5px;
+			padding-bottom: 50px;
+		}
+
+		#social-media a { 
+			display: inline-block;
+		}
+		
+		.box {
+
+ 			cursor: pointer;
+  			height: 400px;
+  			position: relative;
+ 			overflow: hidden;
+  			width: 400px;
+		}
+ 
+		.box img {
+  			position: absolute;
+  			left: 0;
+  			-webkit-transition: all 300ms ease-out;
+  			-moz-transition: all 300ms ease-out;
+  			-o-transition: all 300ms ease-out;
+  			-ms-transition: all 300ms ease-out;
+  			transition: all 300ms ease-out;
+		}
+
+		.box .overbox {
+  			background-color: #000;
+  			position: absolute;
+  			top: 0;
+  			left: 0;
+  			color: #fff;
+  			z-index: 100;
+  			-webkit-transition: all 300ms ease-out;
+  			-moz-transition: all 300ms ease-out;
+  			-o-transition: all 300ms ease-out;
+  			-ms-transition: all 300ms ease-out;
+  			transition: all 300ms ease-out;
+  			opacity: 0;
+  			width: 400px;
+  			height: 400px;
+  			padding: 130px 20px;
+		}
+ 
+		.box:hover .overbox { opacity: 1; }
+		
+		.box .overtext {
+  			-webkit-transition: all 300ms ease-out;
+  			-moz-transition: all 300ms ease-out;
+  			-o-transition: all 300ms ease-out;
+  			-ms-transition: all 300ms ease-out;
+  			transition: all 300ms ease-out;
+  			transform: translateY(40px);
+  			-webkit-transform: translateY(40px);
+		}
+
+		.box .title {
+  			font-size: 2em;
+  			text-transform: uppercase;
+  			opacity: 0;
+  			transition-delay: 0.1s;
+  			transition-duration: 0.2s;
+		}
+
+		.box:hover .title,
+
+		.box:focus .title {
+ 			opacity: 1;
+  			transform: translateY(0px);
+  			-webkit-transform: translateY(0px);
+		}
+
+		.box .tagline {
+  			font-size: 0.8em;
+  			opacity: 0;
+  			transition-delay: 0.2s;
+  			transition-duration: 0.2s;
+		}
+
+		.box:hover .tagline,
+		.box:focus .tagline {
+  			opacity: 1;
+  			transform: translateX(0px);
+  			-webkit-transform: translateX(0px);
+		}
+				
+		#navigation ul{
+			text-align: center;
+			padding-left: 0px;
+		}
+		
+		#navigation ul li{
+			text-align: center;
+			display: inline-block;
+			text-transform: uppercase;
+			padding: none;
+		}
+		
+		#navigation a {
+			text-transform: uppercase;
+			color: white;
+			font-size: 15px;
+			text-decoration: none;
+			padding: 20px 20px;
+			margin: 0px;
+			background: black;
+		}
+		
+		#navigation a:hover, a:active {
+			text-decoration: none;
+			color: #B71E9D; 
+		}
+		
+		.right2{
+			background: #000;
+		}
+		
+		.right {
+			background: #000;
+			color: #f1f1f1;
+		}
+		
+		.right two{
+			background: #f1f1f1;
+			color: #000;
+		}
+		
+		#about{
+			color: #000;
+			height: auto;
+			width: auto;
+			background: #f1f1f1;
+		}
+		
+		#contact a{
+			color: #000;
+		}
+		
+		#contact a:hover, a:active{
+			color: #B71E9D;
+		}
+		
+		#contact{
+			color: #000;
+			height: auto;
+			width: auto;
+			background: #f1f1f1;
+		}
+		
+		#intro{
+			color: #f1f1f1;
+			height: auto;
+			width: auto;
+		}
+		
+		#intro1{
+			background: #f1f1f1;
+			text-align: center;
+		}
+		
+		#projects{
+			height: auto;
+			width: 50%;
+		}
+		
+		#projects a{
+			color: #F1F1F1;
+		}
+		
+		#projects a:hover, a:active{
+			color: #B71E9D;
+		}
+		
+		#projects img{
+			height: auto;
+			width: 100%;
+			padding-bottom: 25px;
+		}
+		
+		#project1{
+			background: #f1f1f1;
+		}
+		
+		#me1 {
+		text-align: center;
+		padding-bottom: 50px;
+		}
+		
+		#navigation1{
+			text-align: center;
+			width: auto;
+			height: auto;
+		}
+		
+		#navigation1 ul{
+			text-align: center;
+			padding-left: 0px;
+		}
+		
+		#navigation1 ul li{
+			text-align: center;
+			display: inline-block;
+			text-transform: uppercase;
+			padding: none;
+			color: #000;
+		}
+		
+		#navigation1 a {
+			text-transform: uppercase;
+			color: #000;
+			font-size: 15px;
+			text-decoration: none;
+			padding: 20px 20px;
+			margin: 0px;
+			background: #f1f1f1;
+		}
+		
+		#navigation1 a:hover, a:active {
+			text-decoration: none;
+			color: #B71E9D; 
+		}
+		
+		/* CSS RESET STYLES IN BROWSER */
+		
+		*{
+			margin: 0;
+			padding: 0:
+		}
+		
+</style>
+
+<!-- END OF STYLESHEET -->	
+
+</head>
+
+<body>
+
+<!-- HEADER SECTION -->
+
+<div id="header">
+		<p>Aspiring UI Designer</p>
+</div>
+
+<div id="header">
+	<img src="images/blackmarque.png" />
+</div>
+<div id="header">
+	<img class="animated fadeIn duration-20s" src="images/blackwordmark.png">
+</div>
+
+<!-- END OF HEADER SECTION -->
+
+<!-- NAVIGATION SECTION -->
+
+<div id="navigation">
+	<ul>
+		<li>|</li>
+		<li><a href="#intro">Intro</a></li>
+		<li>|</li>
+		<li><a href="#about">About</a></li>
+		<li>|</li>
+		<li><a href="#projects">Projects</a></li>
+		<li>|</li>
+		<li><a href="#contact">Contact</a></li>
+		<li>|</li>
+	</ul>
+</div>	
+
+<!-- END OF NAVIGATION SECTION -->
+
+<!-- INTRO SECTION -->	
+
+		<div id="intro1" class="flex-wrapper">
+			<div class="left">
+				<div class="left-inner">
+<h1>INTRO</h1>
+	</div>
+<div id="navigation1">
+	<ul>
+		<li>|</li>
+		<li><a href="#intro">Intro</a></li>
+		<li>|</li>
+		<li><a href="#about">About</a></li>
+		<li>|</li>
+		<li><a href="#projects">Projects</a></li>
+		<li>|</li>
+		<li><a href="#contact">Contact</a></li>
+		<li>|</li>
+	</ul>
+</div>
+		</div>
+		
+	<div id="intro" class="right">
+		<div class="text-wrapper">
+			<div class="w-richtext">
+			
+<div id="me1">
+		<img src="images/me.png" />
+</div>
+
+	<h2>Courtney Robinson</h2>
+	<p>Metal girl with tattoos and colourful hair</p>
+	<p>Aspiring UI / Front End Designer</p>
+	<p>Animal and coffee enthusiast</p>
+	
+	</div>
+		</div>
+		
+			</div>
+				</div>
+
+<!-- END OF INTRO SECTION -->
+
+<!-- ABOUT SECTION -->	
+			
+	<div id="about1" class="flex-wrapper">
+		<div class="left">
+			<div class="left-inner">
+			
+<h1>ABOUT</h1>
+	</div>
+<div id="navigation">
+	<ul>
+		<li>|</li>
+		<li><a href="#intro">Intro</a></li>
+		<li>|</li>
+		<li><a href="#about">About</a></li>
+		<li>|</li>
+		<li><a href="#projects">Projects</a></li>
+		<li>|</li>
+		<li><a href="#contact">Contact</a></li>
+		<li>|</li>
+	</ul>
+</div>
+		</div>
+		
+	<div id="about" class="right two">
+		<div class="text-wrapper">
+			<div class="w-richtext">
+			
+<h2>Who I Am</h2>
+	<p>I’m a young, aspiring designer based in Belfast with an enthusiasm and passion for digital design.</p>
+	<p>I'm currently a first year student at Ulster University, Belfast, studying a Bachelors in Interaction Design. From this I hope to develop my existing skills to progress my journey within the design industry. My key areas of interest include:</p>
+
+<ul>
+<li>Web Design/Code</li>
+<li>App Development</li>
+<li>Graphic Design</li>
+<li>Illustration</li>
+<li>Photography</li>
+</ul>
+
+<p>Prior to university I achieved a Level 5 HND certificate in Graphic Design at Belfast Metropolitan College. It was here that I discovered my interest in digital design whilst building and designing projects for set briefs.</p>
+<p>At the completion of this course, I began full time work whilst taking a gap year from education. During this time I continued to work on building my design knowledge by working independently alongside a Senior UX Designer in my free time as I was keen to broaden my skill set and knowledge within the UI industry. I was taught the lastest design softwares being used as well as how to build prototype app designs. 
+<p>However, I wished to continue furthering my knowledge and pushing to achieve my goals at getting a career within the design industry as it is an ever growing, ever changing place. This was when I made the decision to apply for university.</p>
+
+<br>
+
+<h5>Take a look at some of my work below and feel free to contact me using the details provided.</h5>
+
+</div>
+		</div>
+			</div>
+				</div>
+			
+<!-- END OF ABOUT SECTION -->
+				
+<!-- START OF PROJECT SECTION -->
+			
+	<div id="project1" class="flex-wrapper">
+		<div class="left">
+			<div class="left-inner">
+			
+<h1>PROJECTS</h1>
+	</div>
+<div id="navigation1">
+	<ul>
+		<li>|</li>
+		<li><a href="#intro">Intro</a></li>
+		<li>|</li>
+		<li><a href="#about">About</a></li>
+		<li>|</li>
+		<li><a href="#projects">Projects</a></li>
+		<li>|</li>
+		<li><a href="#contact">Contact</a></li>
+		<li>|</li>
+	</ul>
+</div>
+		</div>
+		
+	<div id="projects" class="right2">
+		<div class="text-wrapper">
+			<div class="w-richtext">
+			
+<div>	
+	<h3>BRANDING</h3>
+	
+	<div class="box"> <img src="images/monogram.png" />
+
+	<div class="overbox">
+
+    <div class="title overtext"><a href="https://courtneyrobinson97.tumblr.com/search/ixd103">MONOGRAM</a></div>
+
+  </div>
+
+</div>
+	
+	<div>	
+		<h3>TRAVEL APP</h3>
+	
+		<div class="box"><img src="images/app.png" />
+				<div class="overbox">
+
+    	<div class="title overtext"><a href="https://courtneyrobinson97.tumblr.com/search/ixd104">TRAVEL APP</a></div>
+
+</div>
+	</div>
+	</div>
+	
+	<div>	
+		<h3>INFOGRAPHIC</h3>
+	
+		<div class="box"><img src="images/INFOGRAPHIC.pdf"/>
+				<div class="overbox">
+
+    	<div class="title overtext"><a href="https://courtneyrobinson97.tumblr.com/search/ixd104">INFOGRAPHIC</a></div>
+
+      </div>
+	</div>
+	</div>	
+
+	<div>	
+		<h3>PHOTOGRAPHY</h3>
+	
+		<div class="box"><img src="images/img1.JPG"/>
+				<div class="overbox">
+
+    	<div class="title overtext"><a href="https://www.pinterest.co.uk/courtneyr97/photography/">PHOTOGRAPHY</a></div>
+
+  </div>
+	</div>
+	</div>	
+	
+		</div>
+			</div>
+				</div>
+					</div>
+					</div>
+					
+<!-- END OF PROJECT SECTION -->
+
+<!-- CONTACT SECTION -->
+				
+	<div id="contact1" class="flex-wrapper">
+		<div class="left">
+			<div class="left-inner">
+			
+<h1>CONTACT</h1>
+	</div>
+<div id="navigation">
+	<ul>
+		<li>|</li>
+		<li><a href="#intro">Intro</a></li>
+		<li>|</li>
+		<li><a href="#about">About</a></li>
+		<li>|</li>
+		<li><a href="#projects">Projects</a></li>
+		<li>|</li>
+		<li><a href="#contact">Contact</a></li>
+		<li>|</li>
+	</ul>
+</div>
+
+		</div>
+		
+	<div id="contact" class="right two">
+		<div class="text-wrapper">
+			<div class="w-richtext">
+			
+	<div id="header">
+	<img src="images/visual.png" />
+</div>
+<div id="header2">
+	<img src="images/wordmark1.png">
+</div>
+			
+	<p>Please feel free to contact me on any of the sources provided below whether it be for job opportunities, invitation to groups/events or perhaps for a collaboration project.</p>
+	
+	<p>I'm currently accepting freelance work, summer intership offers or part time employment that could work alongside my university schedule.</p>
+	
+	<br>
+	
+	<h4>Email</h4>
+	<a href="courtneyrobinsondesigns@gmail.com">courtneyrobinsondesigns@gmail.com</a>
+	
+	<h4>Phone</h4>
+	<p>07850573117</p>
+	
+	</div>
+		</div>
+			</div>
+				</div>
+
+<div id="icons">
+	Or check out my social media pages below
+</div>
+
+<div id="social-media">	
+
+	<a href="https://twitter.com/CRDesigns97">
+	<img src="images/twitter.png" class="social" alt="Twitter" />
+	</a>
+
+	<a href="https://www.instagram.com/courtneyrobinsondesigns/">
+	<img src="images/instagram.png" class="social" alt="Instagram" />
+	</a>
+
+	<a href="https://github.com/CourtneyRobinson97">
+	<img src="images/github.png" class="social" alt="Github" />
+	</a>
+	
+	<a href="https://dribbble.com/CRDesigns97">
+	<img src="images/dribbble.png" class="social" alt="Dribbble" />
+	</a>
+	
+</div>
+
+<!-- END OF CONTACT SECTION -->
+			
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" intergrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://uploads-ssl.webflow.com/5a6e13ad92eb9700011adcea/js/webflow.650327e6f.js" type="text/javascript"></script><!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+</body>
+</html>
